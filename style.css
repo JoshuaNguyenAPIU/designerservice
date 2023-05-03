@@ -1,0 +1,374 @@
+/* This is main color background of page*/
+body {
+    background-color: #f2f2f2;
+  }
+  
+
+  body, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+ 
+  }
+
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  /* Style the navbar */
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000a7;
+    transition: color 0.3s;
+    font-weight: 600;
+    
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:active,
+  .navbar-nav .nav-link:focus {
+    color: rgb(240, 153, 13); 
+  }
+  
+
+  .navbar-brand {
+    color: #032952;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+
+  
+  
+  /* Style the jumbotron */
+  .jumbotron {
+    background-image: url('/Users/joshuanguyen/Library/CloudStorage/OneDrive-Asia-PacificInternationalUniversity/Joshua Study/2nd Semester 2022-2023/IT242 Front-End Web Development_/04-28 Final Project/Images/Banner-Background.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+
+
+  /* Style the jumbotron title */
+  .jumbotron h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style the jumbotron lead */
+  .jumbotron .lead {
+    font-size: 1.5rem;
+    max-width: 800px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style the jumbotron button */
+  .jumbotron .btn-primary {
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+  }
+  
+  /* Style the services section */
+  #services {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  /* Style the services section title */
+  #services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  #services a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Style the service cards */
+  .card {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  #portfolio {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+
+
+  .card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 30px;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+@media (max-width: 767px) {
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+
+
+  .about-us-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-us-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  #mission-vision {
+    background: linear-gradient(to right, #59b8fb, #0d3e58);
+    color: #fff;
+    padding: 80px 3px;
+  }
+  
+  #mission-vision h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #mission-vision p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  #mission-vision .container {
+    max-width: 1200px;
+  }
+  
+  #mission-vision .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #mission-vision .col-md-6 {
+    width: 50%;
+    padding: 20px 20px;
+  }
+
+
+  #contact {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+  }
+  
+  /* Style the heading */
+  #contact h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #contact form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact form label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contact form input[type="text"],
+  #contact form input[type="email"],
+  #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form button */
+  #contact form button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    cursor: pointer;
+  }
+  
+  #contact .col-md-6 {
+    padding: 0 30px;
+  }
+  
+  #contact .col-md-6 h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #contact .col-md-6 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+
+  /* Style on LOGIN page */
+
+/* Button */ 
+  #login-button {
+    background-color: #47ace2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  #login-button:hover {
+    background-color: #0069d9;
+  }
+
+/* Designers Page */ 
+.designers-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+ul.list-unstyled {
+  margin-bottom: 30px;
+}
+
+ul.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+ul.list-unstyled li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.btn-primary {
+  background-color: #005fec;
+  border-color: #005fec;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0043c3;
+  border-color: #0043c3;
+}
+
+
